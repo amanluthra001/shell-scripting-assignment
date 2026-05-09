@@ -4,9 +4,6 @@ USERNAME="amanluthra001"
 EMAIL="amanluthra804@gmail.com"
 REPO="shell-scripting-assignment-part2"
 
-echo "======================================"
-echo " Shell Scripting Assignment - Part 2 "
-echo "======================================"
 
 git config --global user.name "$USERNAME"
 git config --global user.email "$EMAIL"
@@ -253,5 +250,4 @@ git remote remove origin 2>/dev/null
 
 git remote add origin "https://github.com/${USERNAME}/${REPO}.git"
 
-echo ""
-echo "Repository ready for GitHub Desktop upload"
+
